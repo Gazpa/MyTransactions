@@ -1,5 +1,5 @@
 {
-  "name": "zopa",
+  "name": "transactions",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -7,7 +7,11 @@
   },
   "dependencies": {
     "react": "^16.6.0",
-    "react-dom": "^16.6.0"
+    "react-dom": "^16.6.0",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1",
+    "redux-form": "^7.4.2",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",

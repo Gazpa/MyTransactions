@@ -1,0 +1,120 @@
+@font-face {
+  font-family: Alverata-Black;
+  src: url("./src/fonts/Alverata-Black.otf") format("opentype");
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.text-amounts {
+  text-align: end;
+}
+
+.header {
+  font-family: Alverata-Black;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 0 50px;
+}
+
+.form-transaction {
+  padding: 0 50px;
+}
+
+.form-transaction input {
+  outline: none;
+  border-width: 0 0 2px;
+  border-color: grey;
+  border-radius: 0;
+  width: 100%;
+}
+
+.form-transaction label {
+  display: block;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.form-transaction button {
+  width: 100%;
+  border-radius: 1.25rem;
+  margin-top: 15px;
+}
+
+.form-transaction .has-danger input {
+  border-color: red;
+}
+
+.form-transaction input:focus {
+  border-color: purple;
+}
+
+.form-transaction .text-help {
+  color: red;
+  font-size: 15px;
+  margin-top: 8px;
+}
+
+.my-account-amounts {
+  padding-top: 30px;
+}
+
+.my-transactions-transaction {
+  margin-bottom: 20px;
+  padding: 0 65px;
+}
+
+.my-transactions-name {
+  display: block;
+  font-size: 18px;
+}
+
+.my-transactions-email {
+  display: block;
+  font-size: 12px;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 250px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 250px;
+}
+
+.circular-chart.orange .circle {
+  stroke: #ff9f00;
+}
+
+.percentage {
+  fill: #666;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
